@@ -65,7 +65,7 @@ sudo make install
 ```
 For more details, see: https://github.com/unitreerobotics/unitree_sdk2
 #### mujoco
-Current version is tested in mujoco-3.2.7
+Current version is tested in mujoco-3.3.3
 ```bash
 sudo apt install libglfw3-dev libxinerama-dev libxcursor-dev libxi-dev
 ```
