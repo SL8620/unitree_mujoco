@@ -22,7 +22,7 @@ Differences with origin unitree mujoco repo:
 ![](./doc/func.png)
 
 ## Directory Structure
-- `simulate`: Simulator implemented based on unitree_sdk2 and mujoco (C++)
+- `simulate`: Simulator implemented based on unitree_sdk2 and mujoco (C++, recommended)
 - `simulate_python`: Simulator implemented based on unitree_sdk2_python and mujoco (Python)
 - `unitree_robots`: MJCF description files for robots supported by unitree_sdk2
 - `terrain_tool`: Tool for generating terrain in simulation scenarios
@@ -47,7 +47,7 @@ Note:
 
 ## Message (DDS idl) type description
 - Unitree Go2, B2, H1, B2w, Go2w robots use unitree_go idl for low-level communication.
-- Unitree G1 robot uses unitree_hg idl for low-level communication.
+- Unitree G1, H1-2 robot uses unitree_hg idl for low-level communication.
 
 
 # Installation
@@ -98,7 +98,7 @@ make -j4
 ### 3. Test:
 Run:
 ```bash
-./unitree_mujoco
+./unitree_mujoco -r go2
 ```
 You should see the mujoco simulator with the Go2 robot loaded.
 In a new terminal, run:

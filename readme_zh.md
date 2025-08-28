@@ -6,7 +6,7 @@
 ![](./doc/func.png)
 
 ## 目录结构
-- `simulate`: 基于 unitree_sdk2 和 mujoco (c++) 实现的仿真器
+- `simulate`: 基于 unitree_sdk2 和 mujoco (c++) 实现的仿真器（推荐）
 - `simulate_python`: 基于 unitree_sdk2py 和 mujoco (python) 实现的仿真器
 - `unitree_robots`: unitree_sdk2 支持的机器人 mjcf 描述文件
 - `terrain_tool`: 仿真场景地形生成工具
@@ -20,7 +20,7 @@
 
 ## 消息(DDS idl)类型说明
 - Unitree Go2, B2, H1, B2w, Go2w 型号的机器人使用 unitree_go idl 实现底层通信
-- Unitree G1 型号的机器人使用 unitree_hg 实现底层通信
+- Unitree G1, H1-2 型号的机器人使用 unitree_hg 实现底层通信
 
 注：
  1. 电机的编号与机器人实物一致，具体可参考 [Unitree 文档](https://support.unitree.com/home/zh/developer)
@@ -82,7 +82,7 @@ make -j4
 ### 3. 测试:
 运行：
 ```bash
-./unitree_mujoco
+./unitree_mujoco -r go2
 ```
 可以看到加载了 Go2 机器人的 mujoco 仿真器。
 
