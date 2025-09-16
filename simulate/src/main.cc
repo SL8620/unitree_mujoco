@@ -566,6 +566,42 @@ void *UnitreeSdk2BridgeThread(void *arg)
     sleep(1);
   }
 }
+
+void *BruceBridgeThread(void *arg)
+{
+  // Wait for mujoco data
+  while (true)
+  {
+    if (d)
+    {
+      std::cout << "Mujoco data is prepared" << std::endl;
+      break;
+    }
+    usleep(500000);
+  }
+
+  unitree::robot::ChannelFactory::Instance()->Init(param::config.domain_id, param::config.interface);
+
+
+  int body_id = mj_name2id(m, mjOBJ_BODY, "torso_link");
+  if (body_id < 0) {
+    body_id = mj_name2id(m, mjOBJ_BODY, "base_link");
+  }
+  param::config.band_attached_link = 6 * body_id;
+  
+  std::unique_ptr<UnitreeSDK2BridgeBase> interface = nullptr;
+  if (m->nu > NUM_MOTOR_IDL_GO) {
+    interface = std::make_unique<G1Bridge>(m, d);
+  } else {
+    interface = std::make_unique<Go2Bridge>(m, d);
+  }
+  
+  while (true)
+  {
+    sleep(1);
+  }
+}
+
 //------------------------------------------ main --------------------------------------------------
 
 // machinery for replacing command line error by a macOS dialog box when running under Rosetta
