@@ -2,22 +2,20 @@
 <package format="3">
   <name>robot_driver_pkg</name>
   <version>0.0.1</version>
-  <description>Robot driver package with MotorCommand p/v/tau/kp/kd for 12 motors, with MuJoCo and HW backends</description>
-  <maintainer email="you@example.com">you</maintainer>
+  <description>Robot driver package with hardware and Mujoco backends</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <build_depend>rclcpp</build_depend>
-  <build_depend>rclcpp_components</build_depend>
-  <build_depend>sensor_msgs</build_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_depend>std_srvs</build_depend>
-  <build_depend>rosidl_default_generators</build_depend>
 
-  <exec_depend>rclcpp</exec_depend>
-  <exec_depend>rclcpp_components</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <exec_depend>std_srvs</exec_depend>
-  <exec_depend>rosidl_default_runtime</exec_depend>
+  <!-- ROS 依赖 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>robot_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

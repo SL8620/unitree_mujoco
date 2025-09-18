@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msgs/msg/MotorCommandArray.msg
+// generated code does not contain a copyright notice
+
+#include "robot_msgs/msg/MotorCommand.idl"
+
+module robot_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "msg/MotorCommandArray.msg")
+    struct MotorCommandArray {
+      sequence<robot_msgs::msg::MotorCommand> commands;
+
+      sequence<string> joint_names;
+    };
+  };
+};

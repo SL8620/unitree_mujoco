@@ -1,0 +1,42 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+In file included from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_c/robot_msgs/msg/detail/motor_command_array__functions.h:19[m[K,
+                 from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_c/robot_msgs/msg/detail/motor_command_array__functions.c:4[m[K:
+[01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_c/robot_msgs/msg/detail/motor_command_array__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver_pkg/msg/detail/motor_command__struct.h: No such file or directory
+   22 | #include [01;31m[K"robot_driver_pkg/msg/detail/motor_command__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_generator_c.dir/build.make:135: CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/msg/detail/motor_command_array__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/robot_msgs__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_typesupport_cpp/robot_msgs/msg/motor_command_array__type_support.cpp:7[m[K:
+[01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_cpp/robot_msgs/msg/detail/motor_command_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver_pkg/msg/detail/motor_command__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"robot_driver_pkg/msg/detail/motor_command__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/msg/motor_command_array__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_typesupport_fastrtps_cpp/robot_msgs/msg/detail/motor_command_array__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_typesupport_fastrtps_cpp/robot_msgs/msg/detail/dds_fastrtps/motor_command_array__type_support.cpp:4[m[K:
+[01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_cpp/robot_msgs/msg/detail/motor_command_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver_pkg/msg/detail/motor_command__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"robot_driver_pkg/msg/detail/motor_command__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_typesupport_introspection_cpp/robot_msgs/msg/detail/motor_command_array__type_support.cpp:12[m[K:
+[01m[K/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/rosidl_generator_cpp/robot_msgs/msg/detail/motor_command_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver_pkg/msg/detail/motor_command__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"robot_driver_pkg/msg/detail/motor_command__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/msg/detail/motor_command_array__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/msg/detail/dds_fastrtps/motor_command_array__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

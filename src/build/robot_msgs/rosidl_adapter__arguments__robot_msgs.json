@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/nvidia/code/robot_driver_pkg/src/robot_msgs:msg/MotorCommand.msg",
+    "/home/nvidia/code/robot_driver_pkg/src/robot_msgs:msg/MotorCommandArray.msg"
+  ]
+}

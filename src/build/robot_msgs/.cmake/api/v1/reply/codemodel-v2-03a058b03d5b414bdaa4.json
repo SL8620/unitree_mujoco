@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-970a99fb800d75168af1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robot_msgs__py",
+					"jsonFile" : "directory-robot_msgs__py-0383f756c625ef65eba7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs/robot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_msgs_egg-028199ea291a55749bad.json",
+					"name" : "ament_cmake_python_build_robot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_msgs-84108b170ad57b9eb74c.json",
+					"name" : "ament_cmake_python_copy_robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs-abb566ea341fce7b8aae.json",
+					"name" : "robot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__cpp-54705a626d3555b31071.json",
+					"name" : "robot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_msgs__py::@5fc6735b69ad7f9b66f4",
+					"jsonFile" : "target-robot_msgs__py-19bf18a4c302d48703a1.json",
+					"name" : "robot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_generator_c-94f19f5429bb94212bbd.json",
+					"name" : "robot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_generator_py-2eca3c78bed229c71ba8.json",
+					"name" : "robot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_c-0d23ce80a377faffeee6.json",
+					"name" : "robot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_c__pyext-cde23c21c59ca9a79ca3.json",
+					"name" : "robot_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_cpp-ace38c27dd6339c6fc42.json",
+					"name" : "robot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_fastrtps_c-348c7639bbf0402f02da.json",
+					"name" : "robot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_fastrtps_c__pyext-135d2855d2f843057658.json",
+					"name" : "robot_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_fastrtps_cpp-b620692a83127a3b759c.json",
+					"name" : "robot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_introspection_c-844b8a54d24ce26b9fd0.json",
+					"name" : "robot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_introspection_c__pyext-b909653337908c9d04b8.json",
+					"name" : "robot_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs__rosidl_typesupport_introspection_cpp-1286a1169d174b8e21cf.json",
+					"name" : "robot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_msgs_uninstall-b524890873c0fa6aacde.json",
+					"name" : "robot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-83e8634d3e5becb1cbbc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs",
+		"source" : "/home/nvidia/code/robot_driver_pkg/src/robot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,129 @@
+[0.061s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.061s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73274b5fe1a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73274b57b700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73274b57b700>>)[0m
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/nvidia/code/robot_driver_pkg/src'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extension 'ignore_ament_install'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extensions ['colcon_pkg']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extension 'colcon_pkg'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extensions ['colcon_meta']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extension 'colcon_meta'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extensions ['ros']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(robot_msgs) by extension 'ros'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'robot_msgs' with type 'ros.catkin' and name 'robot_msgs'[0m
+[0.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.147s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.161s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.161s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.163s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 324 installed packages in /opt/ros/humble[0m
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs', 'merge_install': False, 'path': '/home/nvidia/code/robot_driver_pkg/src/robot_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.183s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.184s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.184s] [34mcolcon.colcon_ros.task.catkin.build[0m [1;30mINFO[0m Building ROS package in '/home/nvidia/code/robot_driver_pkg/src/robot_msgs' with build type 'catkin'
+[0.184s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/nvidia/code/robot_driver_pkg/src/robot_msgs'
+[0.185s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.186s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.192s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs': /usr/bin/cmake --build /home/nvidia/code/robot_driver_pkg/src/build/robot_msgs -- -j16 -l16[0m
+[2.148s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs' returned '0': /usr/bin/cmake --build /home/nvidia/code/robot_driver_pkg/src/build/robot_msgs -- -j16 -l16[0m
+[2.155s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs': /usr/bin/cmake --install /home/nvidia/code/robot_driver_pkg/src/build/robot_msgs[0m
+[2.191s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/nvidia/code/robot_driver_pkg/src/build/robot_msgs' returned '0': /usr/bin/cmake --install /home/nvidia/code/robot_driver_pkg/src/build/robot_msgs[0m
+[2.192s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'ros_package_path')
+[2.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ros_package_path.ps1'
+[2.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ros_package_path.dsv'
+[2.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ros_package_path.sh'
+[2.194s] [34mcolcon.colcon_ros.task.catkin[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/local/lib/python3.10/dist-packages'
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'catkin_pythonpath')
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/catkin_pythonpath.ps1'
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/catkin_pythonpath.dsv'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/catkin_pythonpath.sh'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'pkg_config_path')
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path.ps1'
+[2.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path.dsv'
+[2.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path.sh'
+[2.197s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'pkg_config_path_multiarch')
+[2.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path_multiarch.ps1'
+[2.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path_multiarch.dsv'
+[2.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/pkg_config_path_multiarch.sh'
+[2.199s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_msgs)
+[2.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs' for CMake module files
+[2.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs' for CMake config files
+[2.200s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'cmake_prefix_path')
+[2.200s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.ps1'
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.dsv'
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.sh'
+[2.201s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/lib'
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_msgs', 'ld_library_path_lib')
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.ps1'
+[2.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.dsv'
+[2.202s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.sh'
+[2.202s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/bin'
+[2.202s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/lib/pkgconfig/robot_msgs.pc'
+[2.202s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/lib/python3.10/site-packages'
+[2.202s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/bin'
+[2.202s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/package.ps1'
+[2.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/package.dsv'
+[2.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/package.sh'
+[2.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/package.bash'
+[2.204s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/robot_msgs/package.zsh'
+[2.204s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/nvidia/code/robot_driver_pkg/src/install/robot_msgs/share/colcon-core/packages/robot_msgs)
+[2.204s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.204s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.204s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.204s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.207s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.207s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.207s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.217s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.218s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/code/robot_driver_pkg/src/install/local_setup.ps1'
+[2.218s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/nvidia/code/robot_driver_pkg/src/install/_local_setup_util_ps1.py'
+[2.219s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/code/robot_driver_pkg/src/install/setup.ps1'
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/code/robot_driver_pkg/src/install/local_setup.sh'
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/nvidia/code/robot_driver_pkg/src/install/_local_setup_util_sh.py'
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/code/robot_driver_pkg/src/install/setup.sh'
+[2.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/code/robot_driver_pkg/src/install/local_setup.bash'
+[2.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/code/robot_driver_pkg/src/install/setup.bash'
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/code/robot_driver_pkg/src/install/local_setup.zsh'
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/code/robot_driver_pkg/src/install/setup.zsh'
