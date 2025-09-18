@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_driver_pkg</name>
+  <version>0.0.1</version>
+  <description>Robot driver package with MotorCommand p/v/tau/kp/kd for 12 motors, with MuJoCo and HW backends</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rclcpp_components</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>rclcpp_components</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+</package>
