@@ -65,4 +65,9 @@ install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}/
 )
 
+install(DIRECTORY config models
+  DESTINATION share/${PROJECT_NAME}/config
+  DESTINATION share/${PROJECT_NAME}/models
+)
+
 ament_package()

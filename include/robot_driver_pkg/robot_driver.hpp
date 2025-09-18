@@ -17,6 +17,8 @@ public:
   virtual void readImu(sensor_msgs::msg::Imu & msg) = 0;
 };
 
+using RobotDriverPtr = std::shared_ptr<RobotDriverBase>;
+
 /// ===== Mujoco 驱动 =====
 class RobotDriverMujoco : public RobotDriverBase
 {

@@ -1,0 +1,6 @@
+mujoco_sim:
+  ros__parameters:
+    use_sim_time: true
+    update_rate: 500
+    sensor_update_rate: 100
+    visualize: true
